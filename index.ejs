@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>modV</title>
+	<link rel="stylesheet"	href="./libraries/pure/pure-min.css">
+	<link rel="stylesheet"	href="./libraries/pure/grids-responsive-min.css">
+	<link rel="stylesheet"	href="./libraries/font-awesome.min.css">
+	<link rel="stylesheet"	href="style.css">
+</head>
+	<body>
+		<div class="wrap">
+			<section class="pure-g voc1">
+				<div class="pure-u-1-3">
+					<canvas class="dcw1"></canvas>
+				</div>
+
+				<div class="pure-u-1-3">
+					<canvas class="dco1"></canvas>
+				</div>
+
+				<div class="pure-u-1-3">
+					<canvas class="dca1"></canvas>
+				</div>
+			</section>
+
+			<section class="pure-g voc2">
+				<div class="pure-u-1-4">
+
+				</div>
+
+				<div class="pure-u-1-4">
+
+				</div>
+
+				<div class="pure-u-1-4">
+
+				</div>
+
+				<div class="pure-u-1-4">
+
+				</div>
+			</section>
+		</div>
+
+		<% if (nwjs) { %>
+		<script src="nwjs-include.js"></script>
+		<% } %>
+
+		<script id="live-reload" src="http://localhost:35729/livereload.js"></script>
+		<script src="./libraries/Sortable.js"></script>
+		<script src="./libraries/Math.min.js"></script>
+		<script src="app.js"></script>
+		<script>
+			new CCZP();
+		</script>
+	</body>
+</html>
